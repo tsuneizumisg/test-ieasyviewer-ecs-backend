@@ -2,7 +2,7 @@
     "taskDefinitionArn": "arn:aws:ecs:ap-northeast-1:616749751767:task-definition/iev-test-ecs-task-definition-backend:1",
     "containerDefinitions": [
         {
-            "name": "iev-test-ecs-hogehoge",
+            "name": "iev-test-ecs-container-backend",
             "image": "616749751767.dkr.ecr.ap-northeast-1.amazonaws.com/iev-test-repo:latest",
             "cpu": 0,
             "portMappings": [
